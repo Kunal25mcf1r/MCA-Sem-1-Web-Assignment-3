@@ -1,0 +1,141 @@
+<html>
+<style>
+    a {
+        text-decoration: none;
+        color: #003366;
+        font-weight: bold;
+        background: white;
+        padding: 6px 12px;
+        border-radius: 5px;
+        border: 1px solid #003366;
+    }
+
+    a:hover {
+        background: #003366;
+        color: white;
+    }
+</style>
+
+<body>
+    <a href="Admission.html">Go Back</a>
+    <h1 style="text-align:center;color: blueviolet;">Student Registration
+        Form</h1>
+    <form>
+        <div style="background-color:rgb(216, 139, 216);">
+            <h3 style="width: 100%;">Basic Information</h3>
+        </div>
+        <div style="background-color:#d8b6d8;">
+            <table style="column-width: 10%;">
+                <tr>
+                    <td><label name="First Name">First Name</label></td>
+                    <td><input type="text" name="First Name"><br></td>
+                    <td><label name="mid">Middle Name</label></td>
+                    <td><input type="text" name="mid"></td>
+                    <td> <label name="last">Last Name</label></td>
+                    <td><input type="text" name="last"></td>
+                </tr>
+                <tr>
+                    <td><label name="rollno">Roll No</label></td>
+                    <td><input type="number" name="rollno"><br></td>
+                </tr>
+                <tr>
+                    <td><label name="email">Email</label></td>
+                    <td><input type="text" name="email"><br></td>
+                </tr>
+                <tr>
+                    <td> <label name="phone">Phone No</label></td>
+                    <td><input type="number" name="phone"><br></td>
+                </tr>
+                <tr>
+                    <td><label name="userid">User ID</label></td>
+                    <td><input type="text" name="userid"><br></td>
+                </tr>
+                <tr>
+
+                    <td><label name="pass">Password</label></td>
+                    <td><input type="password" name="pass"><br></td>
+                </tr>
+                <tr>
+                    <td><label name="repass">Re-Enter Password</label></td>
+                    <td><input type="password" name="repass"><br></td>
+                </tr>
+                <tr>
+                    <td> <label name="branch">Branch</label></td>
+                    <td><select name="branch">
+                            <option value="CSE">CSE</option>
+                            <option value="BioTech">BioTech</option>
+                            <option value="MBA">MBA</option>
+                        </select></td>
+                    <td>
+                        <label name="year">Year of studying</label>
+                        <select name="year">
+                            <option value="First">First</option>
+                            <option value="Second">Second</option>
+                            <option value="Third">Third</option>
+                        </select><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>><label name="image">Upload Photo</label></td>
+                    <td><input type="file" name="image"></td>
+                </tr>
+            </table>
+        </div>
+        <div style="background-color:rgb(216, 139, 216);">
+            <h3 style="width: 100%;">Personal Details</h3>
+        </div>
+        <div style="background-color:#d8b6d8;">
+            <table>
+                <tr>
+                    <td> <label name="fname">Father's Name</label></td>
+                    <td><input type="text" name="fname"><br></td>
+                    <td><label name="fcontact">Contact No.</label></td>
+                    <td><input type="number" name="fcontact"><br></td>
+                </tr>
+                <tr>
+                    <td><label name="mname">Mother's Name</label></td>
+                    <td> <input type="text" name="mname"></td>
+                    <td><label name="mcontact">Contact No.</label></td>
+                    <td><input type="number" name="mcontact"><br></td>
+                </tr>
+
+                <tr>
+                    <td><label name="dob">Date Of Birth</label></td>
+                    <td> <input type="date" name="dob"><br></td>
+                    <td><label name="aadhar">Aadhar No.</label></td>
+                    <td><input type="number" name="aadhar"><br></td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div style="background-color:rgb(216, 139, 216);">
+            <h3 style="width: 100%;">Address</h3>
+        </div>
+        <div style="background-color:#d8b6d8;">
+            <table>
+                <tr>
+                    <td>
+                        <label name="address1">Adress1</label>
+                    </td>
+                    <td>
+                        <textarea rows="4" cols="90"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    |<td>
+                        <label name="address2">Adress2</label>
+                    </td>
+                    <td>
+                        <textarea rows="4" cols="90"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <div style="text-align: center;">
+                <input type="button" name=register value="Register">
+                <input type="button" name=register value="Reset">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
